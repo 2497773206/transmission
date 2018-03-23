@@ -2,6 +2,8 @@
 适用于centos的transmission
 =====
 安装命令
+---
+wget https://raw.githubusercontent.com/alekkxl/transmission/master/transmission.sh && bash transmission.sh -u 帐号 -p 密码 --port 9091
 
 停止命令
 ---
