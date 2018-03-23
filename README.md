@@ -3,14 +3,14 @@
 =====
 安装命令
 ---
-wget https://raw.githubusercontent.com/alekkxl/transmission/master/transmission.sh && bash transmission.sh -u 帐号 -p 密码 --port 9091
-
+<br/>wget https://raw.githubusercontent.com/alekkxl/transmission/master/transmission.sh && bash transmission.sh -u 帐号 -p 密码 --port 9091
+</br>
 停止命令
 ---
-systemctl stop transmission-daemon.service
+<br/>systemctl stop transmission-daemon.service</br>
 修改配置
 ---
-vi /var/lib/transmission-daemon/info/settings.json
+<br/>vi /var/lib/transmission-daemon/info/settings.json</br>
 重新启动
 ---
-systemctl start transmission-daemon.service
+<br/>systemctl start transmission-daemon.service</br>
